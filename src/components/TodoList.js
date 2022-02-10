@@ -55,17 +55,17 @@ function TodoList() {
     
 
     return (
-        <div>
-            <h1>What is the Plan for Today?</h1>
-            <TodoForm onSubmit={addTodo} />
-            <Todo 
-                todos={todos}
-                completeTodo={completeTodo}
-                removeTodo={removeTodo}
-                updateTodo={updateTodo}
-            />
-            <p>*Click on an item to mark it complete.</p>
-        </div>
+            <div>
+                <h1>What is the Plan for Today?</h1>
+                <TodoForm onSubmit={addTodo} />
+                <Todo 
+                    todos={todos}
+                    completeTodo={completeTodo}
+                    removeTodo={removeTodo}
+                    updateTodo={updateTodo}
+                />
+                <p>*Select an item's name to mark it complete.</p>
+            </div>
     )
 }
 
