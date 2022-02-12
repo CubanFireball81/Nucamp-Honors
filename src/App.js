@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import TodoList from './components/TodoList';
-import bgVideo from './assets/bg-Video/colorfulbubbles.mp4';
+// import bgVideo from './assets/bg-Video/colorfulbubbles.mp4';
 
 
 function App() {
