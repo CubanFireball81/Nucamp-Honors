@@ -7,12 +7,12 @@ import bgVideo from './assets/bg-Video/colorfulbubbles.mp4';
 function App() {
   return (
     <div className='bg-video'>
-      <video loop autoPlay id='video'>
+      {/* <video loop autoPlay id='video'>
         <source
           src={bgVideo}
           type="video/mp4"
         />
-      </video>
+      </video> */}
       
       <div className='todo-app'>
         <TodoList />
